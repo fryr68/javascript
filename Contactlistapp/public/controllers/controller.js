@@ -8,4 +8,8 @@ $http.get('/contactlist').then(function(response){
 
 });
 
+$scope.addContact = function(){
+    console.log($scope.contact);
+};
+
 }]);
